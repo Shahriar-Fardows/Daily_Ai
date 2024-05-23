@@ -6,10 +6,14 @@ const Root = () => {
     return (
         <div>
             <Navbar />
-            <div className="h-[100vh]">
+           
+            <div className="min-h-screen container bg-white	mx-auto z-50 py-2">
                 <Outlet />
             </div>
+            <div className="z-10">
             <Footer />
+            </div>
+            
         </div>
     );
 };

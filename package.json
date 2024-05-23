@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@alan-ai/alan-sdk-web": "^1.8.54",
     "classnames": "^2.5.1",
+    "dotenv": "^16.4.5",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
     "react": "^18.2.0",
